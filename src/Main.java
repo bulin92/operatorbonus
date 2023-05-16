@@ -8,8 +8,7 @@ public class Main {
         if (refill > 1000) {
             bonus = refill / 100;
             accountAfterRefill = onTheAccount + refill + bonus;
-        }
-        else {
+        } else {
             bonus = 0;
             accountAfterRefill = onTheAccount + refill;
         }
